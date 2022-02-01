@@ -107,7 +107,7 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
 
     # screenshot
     ([mod], "s", lazy.spawn("scrot")),
-    ([mod, "shift"], "s", lazy.spawn("scrot -s /home/viper/Documents/semana_18/img")),
+    ([mod, "shift"], "s", lazy.spawn("scrot -s /home/viper/")),
 #    ("Print", lazy.spawn("xfce4-screenshooter")),
 
     # ------------ Hardware Configs ------------
